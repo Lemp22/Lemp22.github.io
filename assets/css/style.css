@@ -1,0 +1,18 @@
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;  
+}
+#background-img{
+    background-image: url(/assets/img/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#background-portafolio{
+    background-image: url(/assets/img/backgroud-portafolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+.card-img-top{
+    height: 320px;
+}

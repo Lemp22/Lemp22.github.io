@@ -5,33 +5,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/09fe901073.js" crossorigin="anonymous"></script>
+    
     <title>Github Page</title>
 </head>
 <body>
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Luis Molina
-          </a>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+        <div class="container">
+            <a class="navbar-brand">
+                <h2 class="text-white">Luis Molina</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ">
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="#">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
+<section id="background-img" class="text-white mt-5">
+<div  class="container"> 
+    <div class="col-12 col-md-7">
+        <h1 class="display-1 fw-bold  pt-5">
+            Ingeniero Biomédico
+        </h1>
+        <p class="fs-5">
+            Soy un profesional responsable y dedicado a mi trabajo, debido a mi experiencia, entiendo la importancia de la gestión del tiempo e implementar soluciones rápidas pero eficientes. Con experiencia en mantenimientos preventivos y correctivos de equipos médicos, así como en procesos administrativos y de logística como elaboración de planes de mantenimiento, elaboración de protocolos e informes de mantenimiento.
+        </p>
+        <div class="mb-5 pb-5">
+            <!--<button class="btn btn-lg btn-info text-light me-4">Trabajos</button>
+            <button class="btn btn-lg btn-info text-light">Contacto</button>-->
+        </div>
+    </div>
+</div>
+</section>
 
+<section id="Acerca-de-mi" class="container  my-5 bg-light">
 
+    <h2 class="display-3 fw-bold my-4 text-black text-center" >Acerca de mi</h2>
 
+    <div  class="row fw-bold ">
+        <div class="col-12 col-md-4">
+            <h2 class="text-danger text-start"><i class="fa-solid fa-address-card  pe-2"></i>Datos Personales</h2>
+            <p>
+            Nombre: Luis Enrique Molina Pérez <br> 
+            Lugar de nacimiento: Venezuela <br> 
+            Fecha de nacimiento:04/10/1993 <br> 
+            Dirección: Decima Avenida - San Miguel <br> 
+            Correo electronico: Luismolina_216@hotmail.com <br>
+            Teléfono: +56972723412
+            </p>
+        </div>
+    
+        <div class="col-12 col-md-4">
+            <h2 class="text-danger text-start"><i class="fa-solid fa-graduation-cap pe-2"></i>Formación</h2>
+            <p>
+                2016 - Ingeniero Biomédico: UNEFM. <br>
+                2014 - T.S.U. en Electromedicina: UNEFM. <br>
+                2014 - Asistente Electromecánico: UNEFM. <br>
+                2010 - Educación media: U.E Instituto Cardon.
+            </p>
+            </div>
+        
+            <div class="col-12 col-md-4">
+                <h2 class="text-danger text-start"><i class="fa-solid fa-brain pe-2"></i>Hablididades y Aptitudes</h2>
+                <p>
+                    Manejo de herramientas Office: Nivel avanzado. <br> 
+                    Capacidad de aprendizaje rápido. <br>
+                    Conocimiento y manejo de Sistemas operativos Windows. <br>
+                    Manejo de Ingles oral y escrito: Nivel intermedio. <br>
+                    Capacidad de trabajo en equipo. <br>
+                    Conocimientos de lenguaje PHP: Nivel básico Manejo de bases de datos. <br>
+                    
+                </p>
+                </div>    
+        </div>
 
+</section>
 
+<section id="background-portafolio" class="my-5 p-5 ">
 
+    <h2 class="display-4 fw-bold text-center text-white pt-3 mb-5">Portafolio</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-9 col-md-3 py-3 me-5">
+            
+            
+            <div class="card bg-light border-success p" style="width: 18rem; height: 30rem;">
+                <img src="/assets/img/desafio2.png" class="card-img-top" alt="desafio-1">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-outline-info">
+                   <link rel="stylesheet" href="https://github.com/Lemp22/Rincon-de-Zora.git"> Ver más
+                </button>
+                </div>
+            </div>
+        </div>
+            <div class="col-9 col-md-3 py-3 me-5">
+            <div class="card bg-light border-warning " style="width: 18rem; height: 30rem;">
+                <img src="/assets/img/desafio3.png" class="card-img-top" alt="desafio-3">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-outline-info">
+                    Ver más
+                </button>
+                </div>
+            </div>
+            </div>
+        
+
+            <div class="col-9 col-md-3 py-3 me-5">
+            <div class="card bg-light border-danger" style="width: 18rem; height: 30rem;">
+                <img src="/assets/img/desafio4.png" class="card-img-top" alt="desafio-4">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-outline-info">
+                    Ver más
+                </button>
+                </div>
+            </div>
+        </div>
+    
+            
+        </div>
+    </div>
+
+</section>
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
