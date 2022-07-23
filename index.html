@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
         <div class="container">
             <a class="navbar-brand">
-                <h2 class="text-white">Luis Molina</h2>
+                <h2 class="text-danger">Luis Molina</h2>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ">
                     <li class="nav-item me-3">
-                        <a class="nav-link text-white" href="#">Acerca de mi</a>
+                        <a class="nav-link text-danger" href="#Acerca-de-mi">Acerca de mi</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link text-white" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link text-danger" href="#background-portafolio">Portafolio</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +58,8 @@
 </div>
 </section>
 
-<section id="Acerca-de-mi" class="container  my-5 bg-light">
+<section id="Acerca-de-mi" data-spy="Acerca-de-mi"
+data-target="#Acerca-de-mi" class="container  my-5 bg-light">
 
     <h2 class="display-3 fw-bold my-4 text-black text-center" >Acerca de mi</h2>
 
@@ -104,45 +102,46 @@
 
 </section>
 
-<section id="background-portafolio" class="my-5 p-5 ">
+<section id="background-portafolio" data-spy="background-portafolio"
+data-target="#background-portafolio" class="mt-5 p-5 ">
 
     <h2 class="display-4 fw-bold text-center text-white pt-3 mb-5">Portafolio</h2>
 
     <div class="row justify-content-center">
-        <div class="col-9 col-md-3 py-3 me-5">
+        <div class="col-9 col-md-3 pt-3 me-5">
             
             
             <div class="card bg-light border-success p" style="width: 18rem; height: 30rem;">
                 <img src="/assets/img/desafio2.png" class="card-img-top" alt="desafio-1">
                 <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-outline-info">
-                   <link rel="stylesheet" href="https://github.com/Lemp22/Rincon-de-Zora.git"> Ver más
-                </button>
+                <p class="card-text fw-bold">Primer proyecto de Landing page de una tienda, utilizando Html e integrando código CSS</p>
+                
+                <a class="btn btn-outline-dark fw-bold" href="https://lemp22.github.io/Rincon-de-Zora/"> Ver más </a>
+                
                 </div>
             </div>
         </div>
-            <div class="col-9 col-md-3 py-3 me-5">
+            <div class="col-9 col-md-3 pt-3 me-5">
             <div class="card bg-light border-warning " style="width: 18rem; height: 30rem;">
                 <img src="/assets/img/desafio3.png" class="card-img-top" alt="desafio-3">
                 <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-outline-info">
-                    Ver más
-                </button>
+                <p class="card-text fw-bold">Construcción de un Landig Page aplicando las propiedades display y float tomando como referencia una maqueta.</p>
+                
+                <a class="btn btn-outline-dark fw-bold" href="https://lemp22.github.io/Iguanas/"> Ver más</a>
+                
                 </div>
             </div>
             </div>
         
 
-            <div class="col-9 col-md-3 py-3 me-5">
+            <div class="col-9 col-md-3 pt-3 me-5">
             <div class="card bg-light border-danger" style="width: 18rem; height: 30rem;">
                 <img src="/assets/img/desafio4.png" class="card-img-top" alt="desafio-4">
                 <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-outline-info">
-                    Ver más
-                </button>
+                <p class="card-text fw-bold">Construcción de un Landing Page de una tienda aplicando el sistema de grillas de Boostrap</p>
+                
+                <a class="btn btn-outline-dark fw-bold" href="https://lemp22.github.io/Cuppon/"> Ver más </a>
+                
                 </div>
             </div>
         </div>
@@ -156,5 +155,7 @@
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
-
+<footer class="bg-dark text-center text-danger p-4 fw-bold">
+    <p class="mb-0"><i class="fa-solid fa-copyright me-2"></i>Luis Molina 2022. Todos los derechos reservados.</p>
+</footer>
 </html>
